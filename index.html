@@ -3,7 +3,10 @@
 <head>
 <meta charset="utf-8">
 <title>Display Webcam Stream</title>
- 
+<head>
+	<link rel="stylesheet" href="style.css">
+  </head>
+  
 <style>
 #container {
 	margin: 0px auto;
@@ -19,12 +22,20 @@
 </style>
 </head>
  
+<header>
+	<h1>LAM</h1>
+</header>
+
 <body>
+
+<p>⬇ In dit venster kan u uw camera zien ⬇</p>
+
 <div id="container">
 	<video autoplay="true" id="videoElement">
 	
 	</video>
 </div>
+
 <script>
 var video = document.querySelector("#videoElement");
 
@@ -38,5 +49,9 @@ if (navigator.mediaDevices.getUserMedia) {
     });
 }
 </script>
+
+<footer>
+	<p>gemaakt door Ties en Aidan</p>
+</footer>
 </body>
 </html>
