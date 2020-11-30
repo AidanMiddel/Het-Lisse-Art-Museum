@@ -6,7 +6,7 @@ header {
 }
 
 body {
-    background-color: #ccc8c8;
+    background-image: url("body.png");
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
