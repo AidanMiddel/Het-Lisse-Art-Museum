@@ -1,4 +1,3 @@
 # website voor het lam
 
-tot nu toe hebben we een webpagina die een camera kan open 
-en een wireframe idee voor de website
+[link naar de live versie](http://31649.hosts1.ma-cloud.nl/lam/)
