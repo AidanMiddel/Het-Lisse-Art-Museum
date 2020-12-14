@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+    <style>
+        #container {
+            margin: 0px auto;
+            width: 499px;
+            height: 375px;
+            border: 10px #333 solid;
+        }
+        #videoElement {
+            width: 500px;
+            height: 375px;
+            background-color: #666;
+        }
+        </style>
+
+</head>
+
+<header>
+	<a id="logo" href="index.html"><img src="LAM.png" alt="lam logo" width="200"></a>
+</header>
+
+<body>
+
+    <p id="info">hieronder kunt u op elke plek (zolang u een internet connectie heeft) een kunstwerk tot leven laten komen met behulp van de camera van uw telefoon.</p>
+
+    <p id="info">⬇ In dit venster kan u uw camera zien ⬇</p>
+
+<div class="display-cover">
+    <video autoplay></video>
+    <canvas class="d-none"></canvas>
+
+    <div class="video-options">
+        <select name="" id="" class="custom-select">
+            <option value="">Select camera</option>
+        </select>
+    </div>
+
+    <img class="screenshot-image d-none" alt="">
+
+    <div class="controls">
+        <button class="btn btn-danger play" title="Play"><i data-feather="play-circle"></i></button>
+        <button class="btn btn-info pause d-none" title="Pause"><i data-feather="pause"></i></button>
+        <button class="btn btn-outline-success screenshot d-none" title="ScreenShot"><i data-feather="image"></i></button>
+    </div>
+</div>
+
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="script.js"></script>
+
+<footer>
+	<p>gemaakt door Ties en Aidan</p>
+</footer>
+</body>
+</html>
