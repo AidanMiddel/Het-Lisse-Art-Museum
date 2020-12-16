@@ -1,15 +1,43 @@
-header {
+nav {
     background-color: #00000078;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    padding: 15px;
-    padding-left: 15px;
+    padding: 15px 15px;
+    position: sticky;
+    font-size: 30px;
+    text-align: center;    
+}
+#menu {
+    padding: 7px;
+    border: 3px;
+    text-align: center;
+    border-bottom: solid 2px whitesmoke;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+}
+nav li {
+    flex: 1 0 auto;
+    border-bottom: solid 2px whitesmoke;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px 5px;
+}
+nav li:hover {
+    background-color:  #00000083;
+    color: rgb(192, 192, 192);
 }
 
 body {
     background-position: center;
-    background-image: url("body.png");
+    background-image: url("afb/body.png");
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
