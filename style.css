@@ -60,14 +60,12 @@ footer {
 
 #webxr {
     text-decoration: none;
-    background-color: grey;
     color: black;
     margin: auto;
     border: 10px solid black;
-    padding: 250px;
-    width: 300px;
     text-align: center;
     display: block;
+    overflow: auto;
 }
 #reviews{
     display: flex;
@@ -77,3 +75,9 @@ footer {
     padding: 0 1%;
     list-style-type: none;
 }
+#extratext{
+    background-color: #00000078;
+    margin: 30px 20%;
+    text-shadow: 0 0 10px black ;
+}
+

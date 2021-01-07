@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Het Lisse Art Musuem</title>
+    <script src="library/aframe.js"></script>
+    <script src="library/ma-webxr.js" defer></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="afb/favicon.ico">
+    <style>
+        a-scene {
+        width:700px;
+        height:400px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="logo"><a id="logo" href="index.html"><img src="afb/LAM.png" alt="lam logo" width="140"></a></li>
+            <li id="menu"><a href="bezoek.html">bezoek</a></li>
+            <li id="menu"><a href="webxr.html">ontdek het virtueel museum</a></li>
+            <li id="menu"><a href="overons.html">over ons</a></li>
+            <li id="menu"><a href="contact.html">concact</a></li>
+        </ul>
+    </nav> 
+    
+    <p id="info">hieronder kunt u op elke plek (zolang u een internet connectie heeft) een kunstwerk tot leven laten komen. 
+        dit kunnen wij doen met behulp van uw camera en de sensoren in uw telefoon. 
+        waardoor het lijkt dat het kunstwerk recht voor u staat! probeer het maar.</p>
+
+    <p id="info">⬇ klik hieronder om de ervaring fullscreen te maken ⬇</p>
+    
+    <center>
+        <a-scene background="color: white" embedded id="webxr"></a-scene>
+    </center>
+    
+    <div id="extraText">...</div>
+
+    <p id="info">Folkert de jong is wereldberoemd geworden
+         met zijn levensgrote beeldengroepen gemaakt van materiaal die normaal gebruikt worden als isolatiemateriaal.
+         Hij gebruikt vaak kenmerkende kleuren in zijn werk. Vaak verwijzen ze ook naar geschiedenis,
+         historische figuren uit de Nederlandse geschiedenis zijn vaak een insiratiebron.</p>
+    <footer>
+        <p>gemaakt door Ties en Aidan</p>
+    </footer>
+</body>
+</html>
