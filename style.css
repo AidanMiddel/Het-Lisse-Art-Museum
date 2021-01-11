@@ -1,5 +1,5 @@
 nav {
-    background-color: #00000078;
+    background-color: #00000090;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px 15px;
@@ -38,20 +38,28 @@ nav li:hover {
 }
 
 body {
-    background-position: center;
-    background-image: url("afb/body.png");
+    background-image: url("afb/body.jpg");
+    background-repeat: no-repeat;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    background-color: #AC8C76;
 }
 #info{
-    background-color: #00000078;
+    background-color: #00000090;
+    margin: 30px 20%;
+    text-shadow: 0 0 10px black ;
+    text-align: left;
+}
+
+#infokop{
+    background-color: #00000090;
     margin: 30px 20%;
     text-shadow: 0 0 10px black ;
 }
 
 footer {
-    background-color: #00000078;
+    background-color: #00000090;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
@@ -76,7 +84,7 @@ footer {
     list-style-type: none;
 }
 #extratext{
-    background-color: #00000078;
+    background-color: #00000090;
     margin: 30px 20%;
     text-shadow: 0 0 10px black ;
 }
