@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Het Lisse Art Musuem</title>
+    <script src="library/aframe.js"></script>
+    <script src="library/ma-webxr.js" defer></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="afb/favicon.ico">
+    <style>
+        a-scene {
+        width:700px;
+        height:400px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="logo"><a id="logo" href="indexeng.html"><img src="afb/LAM.png" alt="lam logo" width="140"></a></li>
+            <li id="menu"><a href="bezoekeng.html">visit</a></li>
+            <li id="menu"><a href="webxreng.html">discover the virtual museum</a></li>
+            <li id="menu"><a href="overonseng.html">about us</a></li>
+            <li id="menu"><a href="contacteng.html">contact</a></li>
+            <li id="menu"><a href="webxr.html">nederlandse versie</a></li>
+        </ul>
+    </nav> 
+    
+    <p id="info">below you can bring a work of art to life at any place (as long as you have an internet connection).
+        We can do this using your camera and the sensors in your phone.
+        making it seem like the artwork is right in front of you! try it.</p>
+
+    <p id="infokop">⬇ click below to make the experience fullscreen ⬇</p>
+    
+    <center>
+        <a-scene background="color: white" embedded id="webxr"></a-scene>
+    </center>
+    
+    <div id="extraText">...</div>
+
+    <p id="info">Folkert de jong has become world famous
+        with its life-size sculpture groups made of materials normally used as insulation material.
+        He often uses distinctive colors in his work. Often they also refer to history,
+        historical figures from Dutch history are often a source of inspiration.</p>
+    <footer>
+        <p>created by Ties en Aidan</p>
+    </footer>
+</body>
+</html>
