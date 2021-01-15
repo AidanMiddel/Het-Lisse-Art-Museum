@@ -13,7 +13,7 @@ cuberoom.setRotation(-0.76, -36.95, 0);
 
 // create a primitive (sphere)
 const sphere = new Sphere();
-sphere.setColor('white');
+sphere.setColor('red');
 sphere.setRadius(0.3);
 sphere.setPosition(0, 1, -2);
 
@@ -67,21 +67,29 @@ const image360 = new Sky('assets/LamIngang.jpg');
 
 const spotLight = new SpotLight();
 spotLight.setPosition(-0.2, 2, 3.7);
-spotLight.setTarget(melkMeisje);
 
 // listen for an event
 image1.addEventListener('mouseenter', () => 
-    document.getElementById('extraText').innerHTML= "Kunstwerk ‘Food Chain Project’ van kunstenaar Itamar Gilboa.");
+    document.getElementById('extraText').innerHTML= "Kunstwerk van kunstenaar Folkert de Jong.");
 image1.addEventListener('mouseleave', () => 
     document.getElementById('extraText').innerHTML= "");
 image2.addEventListener('mouseenter', () => 
-    document.getElementById('extraText').innerHTML= "Werkplaats van kunstenaar Folkert de Jong");
+    document.getElementById('extraText').innerHTML= "Kunstwerk van kunstenaar Folkert de Jong.");
 image2.addEventListener('mouseleave', () => 
     document.getElementById('extraText').innerHTML= "");
 image3.addEventListener('mouseenter', () => 
-    document.getElementById('extraText').innerHTML= "Kunstwerk van kunstenaar Sabine Tol");
+    document.getElementById('extraText').innerHTML= "Kunstwerk ‘Monument voor een Salimbanque’ van kunstenaar Folkert de Jong.");
 image3.addEventListener('mouseleave', () => 
     document.getElementById('extraText').innerHTML= "");
-
-melkMeisje.addEventListener('click', () => 
-    document.getElementById('extraText').innerHTML = "Melkmeisje van Vermeer");
+image4.addEventListener('mouseenter', () => 
+    document.getElementById('extraText').innerHTML= "Kunstwerk ‘Queen Mary’ van kunstenaar Folkert de Jong.");
+image4.addEventListener('mouseleave', () => 
+    document.getElementById('extraText').innerHTML= "");
+image5.addEventListener('mouseenter', () => 
+    document.getElementById('extraText').innerHTML= "Kunstwerk ‘The Shooting Lesson’ van kunstenaar Folkert de Jong.");
+image5.addEventListener('mouseleave', () => 
+    document.getElementById('extraText').innerHTML= "");
+sphere.addEventListener('click', () => 
+    document.getElementById('extraText').innerHTML= "In dit webXR ruimte kan je het kunst zien van Folkert de Jong. Klik en sleep met de muis om door de ruimte te bewegen. Gebruik WASD om rond te bewegen ");
+sphere.addEventListener('mouseleave', () => 
+    document.getElementById('extraText').innerHTML= "");
