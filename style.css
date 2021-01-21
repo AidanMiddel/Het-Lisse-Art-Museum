@@ -1,3 +1,22 @@
+@media (max-width: 800px){
+    #info, #infokop{
+        margin: 5%;
+    }
+}
+
+main{
+    flex: 15 0 auto;
+    display: flex;
+    padding: 0 1%;
+}
+
+section {
+    flex: 1 0 15%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0% 1%;
+}
+
 nav {
     background-color: #00000090;
     color: white;
@@ -45,6 +64,9 @@ body {
     color: white;
     background-color: #AC8C76;
     justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 #info{
     background-color: #00000090;
@@ -52,6 +74,8 @@ body {
     text-shadow: 0 0 10px black ;
     text-align: left;
     padding: 20px;
+    flex-direction: column;
+    display: flex;
 }
 
 #infokop{
@@ -59,6 +83,8 @@ body {
     margin: 30px 20%;
     text-shadow: 0 0 10px black ;
     padding: 5px;
+    flex-direction: column;
+    display: flex;
 }
 
 footer {
@@ -72,7 +98,7 @@ footer {
     display: flex;
     justify-content: left;
     align-items: left;
-    flex: 1 0 auto;
+    flex: 1 0 auto;    
 }
 
 #webxr {
@@ -86,12 +112,13 @@ footer {
 }
 #reviews{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
     padding: 0 1%;
     list-style-type: none;
 }
+
 #extratext{
     background-color: #00000090;
     margin: 30px 20%;
