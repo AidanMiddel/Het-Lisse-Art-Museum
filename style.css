@@ -1,6 +1,8 @@
-@media (max-width: 800px){
-    #info, #infokop{
+@media only screen and (max-width: 768px){
+    .info, .infokop{
         margin: 5%;
+        width: 100%;
+        background-color: red;
     }
 }
 
@@ -28,7 +30,7 @@ nav {
     margin: 10px 30px;   
     text-shadow: 0 0 10px black ; 
 }
-#menu {
+.menu {
     padding: 7px;
     border: 3px;
     text-align: center;
@@ -52,7 +54,7 @@ nav a{
     padding: 5px 5px;
 }
 nav li:hover {
-    background-color:  #00000083;
+    background-color:  .00000083;
     color: rgb(192, 192, 192);
 }
 
@@ -68,7 +70,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-#info{
+.info{
     background-color: #00000090;
     margin: 30px 20%;
     text-shadow: 0 0 10px black ;
@@ -78,7 +80,7 @@ body {
     display: flex;
 }
 
-#infokop{
+.infokop{
     background-color: #00000090;
     margin: 30px 20%;
     text-shadow: 0 0 10px black ;
@@ -101,7 +103,7 @@ footer {
     flex: 1 0 auto;    
 }
 
-#webxr {
+.webxr {
     text-decoration: none;
     color: black;
     margin: auto;
@@ -110,7 +112,7 @@ footer {
     display: block;
     overflow: auto;
 }
-#reviews{
+.reviews{
     display: flex;
     justify-content: left;
     align-items: left;
@@ -119,7 +121,7 @@ footer {
     list-style-type: none;
 }
 
-#extratext{
+.extratext{
     background-color: #00000090;
     margin: 30px 20%;
     text-shadow: 0 0 10px black ;
