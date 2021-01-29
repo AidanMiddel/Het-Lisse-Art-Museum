@@ -1,12 +1,5 @@
-@media only screen and (max-width: 768px){
-    .info, .infokop{
-        margin: 5%;
-        width: 100%;
-        background-color: red;
-    }
-}
 
-main{
+main {
     flex: 15 0 auto;
     display: flex;
     padding: 0 1%;
